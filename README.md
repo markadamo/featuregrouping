@@ -5,7 +5,7 @@ Install dependencies with:
 `pip3 install -r requirements.txt`
 
 Example command to test on provided data (write to stdout):
-`python3 features.py data/ffc.featureXML -p data/psms.tsv`
+`python3 features.py data/ffc_default.featureXML -p data/psms.tsv`
 
 ```
 usage: python3 features.py [-h] [-t {featureXML,biosaur2}] [-p PSM_FILE] [-o OUTPUT_FILE]
